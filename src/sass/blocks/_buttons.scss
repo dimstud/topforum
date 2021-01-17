@@ -7,9 +7,32 @@
     font-weight: normal;
     line-height: 24px;
     text-align: center;
+    text-transform: uppercase;
     color: #323232;
+    border: none;
     &--logo {
         background-color: #c99c47;
+        color: #ffffff;
+    }
+    &__promo {
+        width: 120px;
+        display: block;
+        margin: 0 auto;
+        background-color: #d4c198;
+        font-size: 13px;
+        color: #ffffff;
+    }
+    &__register {
+        height: 42px;
+        margin-right: 15px;
+        background-color: #c99c47;
+        font-size: 13px;
+        color: #ffffff;
+    }
+    &__subscribe {
+        height: 42px;
+        background-color: #323232;
+        font-size: 13px;
         color: #ffffff;
     }
 }
