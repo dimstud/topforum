@@ -1,0 +1,58 @@
+.promo {
+    background-color: #fff;
+    padding: 66px 0px 49px 0px;
+    &__text {
+        margin-bottom: 58px;
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 30px;
+        text-align: center;
+        color: #323232;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+
+    }
+
+    // .promo__img
+
+    &__img {
+    }
+
+    // .promo__subtitle
+
+    &__subtitle {
+    }
+
+    // .promo__descr
+
+    &__descr {
+    }
+
+    // .promo__btn
+
+    &__btn {
+    }
+
+    // .promo__header
+
+    &__header {
+    }
+}
+.container {
+}
+.btn {
+
+    // .btn__register
+
+    &__register {
+    }
+
+    // .btn__subscribe
+
+    &__subscribe {
+    }
+}
