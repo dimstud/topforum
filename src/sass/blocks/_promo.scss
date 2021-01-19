@@ -2,12 +2,26 @@
     background-color: #fff;
     padding: 66px 0px 49px 0px;
     &__text {
+        position: relative;
         margin-bottom: 58px;
         font-size: 17px;
         font-weight: 300;
         line-height: 30px;
         text-align: center;
         color: #323232;
+        &::after {
+            content: url('../icons/up.png');
+            top: 94px;
+            right: -188px;
+            position: absolute;
+            display: block;
+            width: 42px;
+            height: 42px;
+            transform: translate(-50%, -50%);
+        }
+        span {
+            text-transform: uppercase;
+        }
     }
     &__wrapper {
         display: flex;
@@ -16,7 +30,7 @@
     &__item {
         width: 360px;
         margin-right: 30px;
-        &:last-child{
+        &:last-child {
             margin-right: 0;
         }
     }
@@ -43,7 +57,6 @@
         color: #323232;
         text-align: center;
         margin-bottom: 20px;
-
     }
     &__footer {
         margin-top: 16px;

@@ -1,5 +1,7 @@
 .info {
+    width: 1920px;
     height: 440px;
+    margin: 0 auto;
     background: url('../img/index/bg_header.jpg') center (center/cover) no-repeat;
     .container {
         position: absolute;
@@ -12,7 +14,7 @@
         height: 179px;
         padding: 8px;
         border: 1px solid #ffffff;
-    }    
+    }
     &__block {
         display: flex;
         background-color: #f3ece9;

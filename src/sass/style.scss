@@ -2,8 +2,6 @@
 @import 'libs/font';
 @import 'libs/animate';
 @import 'libs/slick';
-
-
 * {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
@@ -16,6 +14,7 @@
 }
 
 .subtitle {
+    margin: 0;
     font-size: 24px;
     font-weight: bold;
     line-height: 24px;
@@ -29,4 +28,6 @@
 @import 'blocks/info';
 @import 'blocks/promo';
 @import 'blocks/reviews';
+@import 'blocks/promp-video';
+@import 'blocks/clients';
 @import 'blocks/buttons';

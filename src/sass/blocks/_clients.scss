@@ -1,0 +1,46 @@
+.clients {
+    padding: 44px 0px 70px 0px;
+    background-color: #f8f3e9;
+}
+
+.carousel {
+    position: relative;
+    margin-top: 33px;
+    &__list {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    // .carousel__item
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 180px;
+        height: 123px;
+        background-color: #fff;
+    }
+    &__btn-left {
+        position: absolute;
+        top: 50%;
+        left: -42px;
+        transform: translateY(-50%);
+        width: 12px;
+        height: 47px;
+        background: none;
+        border: none;
+    }
+    &__btn-right {
+        position: absolute;
+        top: 50%;
+        right: -36px;
+        transform: translateY(-50%);
+        width: 12px;
+        height: 47px;
+        background: none;
+        border: none;
+    }
+}
