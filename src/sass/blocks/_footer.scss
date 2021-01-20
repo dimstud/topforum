@@ -1,0 +1,107 @@
+.footer {
+    min-height: 365px;
+    padding: 48px 0px 39px 0px;
+    background-color: #323232;
+    &__wrapper {
+        display: flex;
+        justify-content: start;
+        padding-bottom: 20px;
+    }
+    &__nav {
+        height: 210px;
+        padding-right: 59px;
+        border-right: 1px solid #464645;
+        margin-right: 45px;
+    }
+    &__subtitle {
+        margin: 0;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 22px;
+        color: #c99c47;
+    }
+    &__nav-list {
+        padding: 0;
+        padding-top: 16px;
+        list-style-type: none;
+    }
+    &__nav-item {
+        margin-bottom: 12px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    &__nav-link {
+        font-size: 14px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    &__contact {
+        margin-right: 570px;
+        padding: 0;
+    }
+    &__follow {}
+}
+
+.contact {
+    &__link {
+        display: block;
+        margin-top: 16px;
+        font-size: 14px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    &__address {
+        margin: 0;
+        margin-top: 16px;
+        font-size: 14px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    &__tel {
+        display: block;
+        margin: 0;
+        margin-top: 50px;
+        font-size: 14px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    &__mail {
+        display: block;
+        margin: 0;
+        margin-top: 14px;
+        font-size: 14px;
+        font-weight: 300;
+        text-decoration: underline;
+        color: #ffffff;
+    }
+}
+
+.copyring {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #464645;
+    &__text {
+        margin-top: 37px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        color: #f8f3e9;
+    }
+    &__logo {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 26px;
+    }
+    // .copyring__logo-text
+    &__logo-text {
+        margin-top: 11px;
+        margin-right: 9px;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 13px;
+        color: rgba(255, 255, 255, 0.3);
+    }
+    // .copyring__logo-img
+    &__logo-img {}
+}
