@@ -2,52 +2,7 @@
 @import 'libs/font';
 @import 'libs/animate';
 @import 'libs/slick';
-* {
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
-    margin: 0;
-}
-
-.visually-hidden:not(:focus):not(:active) {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
-.container {
-    max-width: 1140px;
-    margin: 0 auto;
-}
-
-.title {
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: center;
-    color: #323232;
-}
-
-.subtitle {
-    margin: 0;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 24px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #323232;
-    &-conference {
-        font-size: 17px;
-        font-weight: bold;
-    }
-}
-
+@import 'blocks/general';
 @import 'blocks/nav';
 @import 'blocks/logo';
 @import 'blocks/info';
@@ -56,7 +11,14 @@
 @import 'blocks/promp-video';
 @import 'blocks/clients';
 @import 'blocks/footer';
-@import 'blocks/sponsors';
+@import 'blocks/our';
 @import 'blocks/conference';
 @import 'blocks/sponsors-list';
+@import 'blocks/list';
+@import 'blocks/exhibitors-list';
+@import 'blocks/speakers-list';
+@import 'blocks/media-list';
+@import 'blocks/contacts';
+@import 'blocks/feedback';
+@import 'blocks/forms';
 @import 'blocks/buttons';

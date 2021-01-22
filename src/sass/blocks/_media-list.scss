@@ -1,0 +1,28 @@
+.media-list {
+    padding-bottom: 60px;
+    &__wrapper {
+        width: 1140px;
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        padding-bottom: 3px;
+    }
+    .list {
+        &__item {
+            width: 360px;
+            margin-bottom: 33px;
+            &:nth-child(3n+3) {
+                margin-right: 0;
+            }
+        }
+        &__logo {
+            width: auto;
+            height: 220px;
+            border: none;
+        }
+        &__img {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,79 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #323232;
+}
+
+.subtitle {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #323232;
+    &-conference {
+        font-size: 17px;
+        font-weight: bold;
+    }
+}
+
+.descr {
+    margin-top: 22px;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    color: #323232;
+}
+
+.select {
+    display: block;
+    width: 450px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-left: 18px;
+    border-color: #e8d8b6;
+    appearance: none;
+    background: url('../../icons/select_down.png') no-repeat 416px center;
+    outline: 0;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #606060;
+}
+
+.option {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 34px;
+    color: #606060;
+}

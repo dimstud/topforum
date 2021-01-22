@@ -1,26 +1,4 @@
 .conference {
     margin-bottom: 40px;
     background-color: #ffffff;
-    &__select {
-        display: block;
-        width: 450px;
-        height: 50px;
-        margin: 0 auto;
-        margin-top: 20px;
-        padding-left: 18px;
-        border-color: #e8d8b6;
-        appearance: none;
-        background: url('../../icons/select_down.png') no-repeat 416px center;
-        outline: 0;
-        font-size: 14px;
-        font-weight: 300;
-        line-height: 24px;
-        color: #606060;
-    }
-    &__option {
-        font-size: 14px;
-        font-weight: 300;
-        line-height: 34px;
-        color: #606060;
-    }
 }

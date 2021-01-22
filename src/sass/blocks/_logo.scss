@@ -38,6 +38,10 @@
         font-weight: 300;
         line-height: 15px;
         color: #323232;
+        &:hover {
+            text-decoration: underline;
+            color: #323232;
+        }
     }
     &__icon {
         width: 37px;

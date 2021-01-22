@@ -1,0 +1,17 @@
+.feedback {
+    background-color: #f8f3e9;
+    padding-top: 48px;
+    .title {
+        font-weight: bold;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: start;
+        margin-top: 16px;
+    }
+    &__form {
+        margin-right: 29px;
+    }
+    // .feedback__contacts
+    &__contacts {}
+}

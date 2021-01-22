@@ -34,4 +34,13 @@
         font-size: 13px;
         color: #ffffff;
     }
+    &__media {
+        width: 120px;
+        display: block;
+        margin: 0 auto;
+        background-color: #d4c198;
+        font-size: 13px;
+        color: #ffffff;
+        text-transform: capitalize;
+    }
 }

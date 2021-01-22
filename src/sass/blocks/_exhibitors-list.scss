@@ -1,0 +1,17 @@
+.exhibitors-list {
+    &__wrapper {
+        width: 1140px;
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        padding-bottom: 3px;
+    }
+    .list {
+        &__item {
+            &:nth-child(4n+4) {
+                margin-right: 0;
+            }
+        }
+    }
+}
