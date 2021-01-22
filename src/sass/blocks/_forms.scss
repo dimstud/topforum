@@ -16,13 +16,22 @@
         border: 1px solid #c99c47;
         margin-bottom: 12px;
     }
-    &__inputs {}
+    &__inputs {
+        margin-bottom: 16px;
+    }
     &__inputs-wrapper {
         display: flex;
         input {
             width: 270px;
             height: 50px;
+            padding-left: 15px;
             border: 1px solid #c99c47;
+            &[placeholder] {
+                font-size: 12px;
+                font-weight: 300;
+                line-height: 24px;
+                color: #606060;
+            }
             &:first-child {
                 margin-right: 15px;
             }
