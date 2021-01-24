@@ -10,9 +10,21 @@
     text-transform: uppercase;
     color: #323232;
     border: none;
+    &__nav {
+        &:hover {
+            text-decoration: none;
+            color: lighten(#e8d8b6, 30%);
+            text-decoration: underline;
+        }
+    }
     &--logo {
         background-color: #c99c47;
         color: #ffffff;
+        &:hover {
+            text-decoration: none;
+            color: lighten(#323232, 30%);
+            text-decoration: underline;
+        }
     }
     &__promo {
         width: 120px;
