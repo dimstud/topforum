@@ -81,7 +81,7 @@
                             </a>
                         </li>
                     </ul>
-                    <a href="./retistration.html" class="btn btn--logo">REGISTER NOW</a>
+                    <a href="./retistration.html" class="btn btn__logo">REGISTER NOW</a>
                 </div>
             </div>
         </div>
@@ -91,98 +91,109 @@
         <section class="registration">
             <div class="container">
                 <h2 class="title">2 EASY STEPS TO REGISTER</h2>
-                <div class="outline">
+                <div class="outline outline__fill">
                     <p>FILL IN THE FORM IN ENGLISH</p>
                 </div>
-                <div class="outline">
+                <div class="registration__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="8" viewBox="0 0 22 8">
+                        <image id="Layer_24_s_Color_Fill_copy_2" data-name="Layer 24&apos;s Color Fill copy 2"
+                            width="22" height="8"
+                            xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAICAYAAAD9aA/QAAABBUlEQVQokZXSvyvFYRTH8dflRlmMFqtFysLNICa5/4KJ+koyoBgkZfVjsDCIG/+B0XeT8iPf/NrkL5BNBotCj56r2/dyy2c69ZzzPud8zlO42h+dxgjWkfmnSkn6U5BVyj0IvJMiHrCGQRzE+OU/+KxSbscixtGJ4yacohdH8fEOE2iuI9SrJauUp3CDZZyjO4CDFdXsAgawgT7cYiHa85FDtmIYm+jCPZZwVkrS79xiTfInLjGESczhAjvYxmNs3o95jMXmM6UkPczvUjtxXh2YjZC3OF0bVvGELeyWkvT1t+LaifN6xkr0PsDDrwlbhQbhyOHof6oRuGrPNRLs4T3a01j4AnGRP9DueK4VAAAAAElFTkSuQmCC" />
+                    </svg>
+                </div>
+                <div class="outline outline__read">
                     <p>READ THOROUGHLY TERMS&CONDITIONS</p>
                 </div>
 
-                <div class="forma">
-                    <div class="forma__wrapper">
+                <form class="form">
+                    <div class="form__wrapper conference">
                         <label for="conference">Please, choose a conference:</label>
-                        <select name="conference" id="conference">
-                            <option value="israel">Wealth TOP FORUM Israel 2016</option>
+                        <select class="select" name="conference" id="conference">
+                            <option class="option" value="israel">Wealth TOP FORUM Israel 2016</option>
                         </select>
                     </div>
 
-                    <div class="forma__wrapper">
+                    <div class="form__wrapper">
                         <p for="delegate">Please choose <span>delegate package</span>:</p>
                         <div class="btn__wrapper">
                             <label for="standart">standart</label>
-                            <input class="form__radio" type="radio" name="delegate" id="standart">
+                            <input class="form__radio visually-hidden" type="radio" name="delegate" id="standart">
                             <label for="premium">premium</label>
-                            <input class="form__radio" type="radio" name="delegate" id="premium">
+                            <input class="form__radio visually-hidden" type="radio" name="delegate" id="premium">
                         </div>
                     </div>
 
-                    <div class="forma__wrapper">
+                    <div class="form__wrapper">
                         <label for="name">Name:</label>
                         <input type="text" id="name">
                     </div>
 
-                    <div class="forma__wrapper">
+                    <div class="form__wrapper">
                         <label for="surname">Surname:</label>
                         <input type="text" id="surname">
                     </div>
 
-                    <div class="forma__wrapper">
+                    <div class="form__wrapper">
                         <label for="company">Company Name:</label>
                         <input type="text" id="company">
                     </div>
 
-                    <div class="forma__wrapper">
+                    <div class="form__wrapper">
                         <label for="business-area">Please, choose a conference:</label>
                         <select name="business-area" id="business-area">
                             <option value="forex">Forex companies</option>
                         </select>
                     </div>
 
-                    <div class="forma__wrapper">
+                    <div class="form__wrapper">
                         <label for="position">Position:</label>
                         <input type="text" id="position">
                     </div>
 
-                    <div class="forma__wrapper">
+                    <div class="form__wrapper">
                         <label for="email-organizers">E-mail (for organizers):</label>
                         <input type="email" name="email-organizers" id="email-organizers">
                     </div>
 
-                    <div class="forma__wrapper">
+                    <div class="form__wrapper">
                         <label for="email-sponsors">E-mail (for sponsors):</label>
                         <input type="email" name="email-sponsors" id="email-sponsors">
                     </div>
 
-                    <div class="forma__wrapper">
+                    <div class="form__wrapper">
                         <label for="tel">Mobile Number (for organizers):</label>
                         <input type="tel" name="tel" id="tel">
                     </div>
 
-                    <div class="forma__wrapper">
+                    <div class="form__wrapper">
                         <label for="country">Country:</label>
                         <input type="text" name="country" id="country">
                     </div>
 
-                    <div class="forma__wrapper">
+                    <div class="form__wrapper">
                         <label for="site">Web-site:</label>
                         <input type="url" name="site" id="site">
                     </div>
 
-                    <div class="forma__wrapper">
+                    <div class="form__wrapper">
                         <p for="pay">Method of payment</p>
                         <div class="btn__wrapper">
                             <label for="free">fere</label>
                             <input class="form__radio" type="radio" name="pay" id="free">
                             <label for="cart">visa mastercart</label>
                             <input class="form__radio" type="radio" name="pay" id="cart">
-                            <label for="cart">Invoice</label>
+                            <label for="invoice">Invoice</label>
                             <input class="form__radio" type="radio" name="pay" id="invoice">
-                            <label for="cart">PaylPal</label>
+                            <label for="paypal">PaylPal</label>
                             <input class="form__radio" type="radio" name="pay" id="paypal">
                         </div>
                     </div>
-
-                </div>
+                    <div class="form__footer">
+                        <label for="accept"><input type="checkbox" name="accept" id="accept">I accept Terms&Conditions
+                        </label>
+                        <button class="btn btn__logo" type="submit">SUBMIT</button>
+                    </div>
+                </form>
             </div>
         </section>
     </main>
