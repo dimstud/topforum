@@ -279,12 +279,18 @@
         </div>
     </footer>
 
-    <div class="subscribe">
-        <h3 class="promo__subtitle">SUBSCRIBE</h3>
-        <p class="promo__descr">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-        <input type="text">
-        <input type="text">
-        <input type="email">
+    <div class="overlay">
+        <div class="modal-subscribe">
+            <div class="modal-subscribe__close">&times;</div>
+            <div class="promo__subtitle">SUBSCRIBE</div>
+            <div class="promo__descr">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+            <form class="subscribe-form" action="#">
+                <input placeholder="Name and surname " type="text">
+                <input placeholder="Company name " type="text">
+                <input placeholder="E-mail" type="email">
+                <button class="btn btn__logo" type="submit">SUBSCRIBE</button>
+            </form>
+        </div>
     </div>
 
     <script src="js/slick.min.js"></script>
