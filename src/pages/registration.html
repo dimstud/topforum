@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/0b3255d8fa.js" crossorigin="anonymous"></script>
     <link href="../css/style.min.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -116,10 +117,10 @@
                     <div class="form__wrapper">
                         <p for="delegate">Please choose <span>delegate package</span>:</p>
                         <div class="btn__wrapper">
+                            <input class="form__radio" type="radio" name="delegate" id="standart">
                             <label for="standart">standart</label>
-                            <input class="form__radio visually-hidden" type="radio" name="delegate" id="standart">
+                            <input class="form__radio" type="radio" name="delegate" id="premium">
                             <label for="premium">premium</label>
-                            <input class="form__radio visually-hidden" type="radio" name="delegate" id="premium">
                         </div>
                     </div>
 
@@ -138,10 +139,10 @@
                         <input type="text" id="company">
                     </div>
 
-                    <div class="form__wrapper">
-                        <label for="business-area">Please, choose a conference:</label>
-                        <select name="business-area" id="business-area">
-                            <option value="forex">Forex companies</option>
+                    <div class="form__wrapper conference">
+                        <label for="business-area conference">Please, choose a conference:</label>
+                        <select class="select" name="business-area" id="business-area">
+                            <option class="option" value="forex">Forex companies</option>
                         </select>
                     </div>
 
@@ -178,18 +179,18 @@
                     <div class="form__wrapper">
                         <p for="pay">Method of payment</p>
                         <div class="btn__wrapper">
-                            <label for="free">fere</label>
                             <input class="form__radio" type="radio" name="pay" id="free">
-                            <label for="cart">visa mastercart</label>
+                            <label for="free">fere</label>
                             <input class="form__radio" type="radio" name="pay" id="cart">
-                            <label for="invoice">Invoice</label>
+                            <label for="cart">visa <i class="fab fa-cc-mastercard"></i></label>
                             <input class="form__radio" type="radio" name="pay" id="invoice">
-                            <label for="paypal">PaylPal</label>
+                            <label for="invoice">Invoice</label>
                             <input class="form__radio" type="radio" name="pay" id="paypal">
+                            <label for="paypal">PaylPal</label>
                         </div>
                     </div>
                     <div class="form__footer">
-                        <label for="accept"><input type="checkbox" name="accept" id="accept">I accept Terms&Conditions
+                        <label for="accept"><input type="checkbox" name="accept" id="accept">  I accept <span>Terms&Conditions</span>
                         </label>
                         <button class="btn btn__logo" type="submit">SUBMIT</button>
                     </div>
