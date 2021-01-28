@@ -2,10 +2,11 @@
     display: block;
     width: 153px;
     height: 38px;
+    padding: 9px 0px 9px 0px;
     background-color: #e8d8b6;
     font-size: 12px;
     font-weight: normal;
-    line-height: 40px;
+    line-height: 20px;
     text-align: center;
     text-transform: uppercase;
     color: #323232;
@@ -33,6 +34,11 @@
         background-color: #d4c198;
         font-size: 13px;
         color: #ffffff;
+        &-events {
+            font-size: 13px;
+            text-transform: capitalize;
+            color: #ffffff;
+        }
     }
     &__register {
         height: 42px;
